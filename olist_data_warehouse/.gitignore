@@ -1,0 +1,9 @@
+# My stuff
+datasets explanation.txt
+requisições.txt
+
+# Venv
+.venv
+
+# Tests
+test.py

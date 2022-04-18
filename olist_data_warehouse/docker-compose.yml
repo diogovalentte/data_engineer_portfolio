@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db_postgres13:
+    image: 'postgres:latest'
+    
+    ports:
+      - 5434:5432
+
+    restart: always
+
+    environment:
+      POSTGRES_USER: username # The PostgreSQL user 
+      POSTGRES_PASSWORD: password # The PostgreSQL password 
+      POSTGRES_DB: olist_database # The PostgreSQL default database (automatically created at first launch)
+
+    volumes:
+      - ./project:/project/
+      - ./requiriments.txt/:/project/requiriments.txt

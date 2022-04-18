@@ -1,0 +1,22 @@
+[2021-09-07 13:27:45,152] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: daily_update_covid_tables.update_brazil_table 2021-09-06T13:01:00+00:00 [queued]>
+[2021-09-07 13:27:45,158] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: daily_update_covid_tables.update_brazil_table 2021-09-06T13:01:00+00:00 [queued]>
+[2021-09-07 13:27:45,158] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 13:27:45,158] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-07 13:27:45,158] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 13:27:45,166] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): update_brazil_table> on 2021-09-06T13:01:00+00:00
+[2021-09-07 13:27:45,169] {standard_task_runner.py:52} INFO - Started process 54 to run task
+[2021-09-07 13:27:45,171] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'daily_update_covid_tables', 'update_brazil_table', '2021-09-06T13:01:00+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpyn447ggv', '--error-file', '/tmp/tmp7uqvoz1d']
+[2021-09-07 13:27:45,171] {standard_task_runner.py:77} INFO - Job 19: Subtask update_brazil_table
+[2021-09-07 13:27:45,191] {logging_mixin.py:109} INFO - Running <TaskInstance: daily_update_covid_tables.update_brazil_table 2021-09-06T13:01:00+00:00 [running]> on host 42585af7096a
+[2021-09-07 13:27:45,215] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=daily_update_covid_tables
+AIRFLOW_CTX_TASK_ID=update_brazil_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-06T13:01:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-06T13:01:00+00:00
+[2021-09-07 13:27:48,206] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-07 13:27:48,212] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=daily_update_covid_tables, task_id=update_brazil_table, execution_date=20210906T130100, start_date=20210907T132745, end_date=20210907T132748
+[2021-09-07 13:27:48,228] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-07 13:27:48,241] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

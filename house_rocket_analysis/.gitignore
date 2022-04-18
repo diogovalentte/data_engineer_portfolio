@@ -1,0 +1,11 @@
+# VSCode settings
+.vscode
+
+# Python things
+__pycache__
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Package instalation
+.mypy_cache
