@@ -1,0 +1,4 @@
+[submodule "crypto_coins_stream_AWS"]
+	path = crypto_coins_stream_AWS
+	url = https://github.com/diogovalentte/crypto_coins_stream_AWS.git
+	branch = main
