@@ -2,3 +2,7 @@
 	path = crypto_coins_stream_AWS
 	url = https://github.com/diogovalentte/crypto_coins_stream_AWS.git
 	branch = main
+[submodule "rock_in_rio_twitter_scraper"]
+	path = rock_in_rio_twitter_scraper
+	url = https://github.com/diogovalentte/rock_in_rio_twitter_scraper.git
+	branch = main
