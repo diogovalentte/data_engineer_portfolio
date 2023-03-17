@@ -6,3 +6,7 @@
 	path = rock_in_rio_twitter_scraper
 	url = https://github.com/diogovalentte/rock_in_rio_twitter_scraper.git
 	branch = main
+[submodule "covid_daily_update"]
+	path = covid_daily_update
+	url = https://github.com/diogovalentte/covid_daily_update.git
+	branch = main
