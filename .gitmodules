@@ -10,3 +10,7 @@
 	path = covid_daily_update
 	url = https://github.com/diogovalentte/covid_daily_update.git
 	branch = main
+[submodule "olist_data_warehouse"]
+	path = olist_data_warehouse
+	url = https://github.com/diogovalentte/olist_data_warehouse.git
+	branch = main
