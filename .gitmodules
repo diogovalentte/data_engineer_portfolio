@@ -14,3 +14,7 @@
 	path = olist_data_warehouse
 	url = https://github.com/diogovalentte/olist_data_warehouse.git
 	branch = main
+[submodule "house_rocket_analysis"]
+	path = house_rocket_analysis
+	url = https://github.com/diogovalentte/house_rocket_analysis.git
+	branch = main
