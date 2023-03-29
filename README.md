@@ -17,7 +17,7 @@
 ---
 
 ### Rock in Rio (2022) Twitter Scrapper (_rock_in_rio_twitter_scrapper_): DEPRECATED due to Twitter recent API changes.
-> An application that get data tweets that contains the hashtag #RockinRio2022 (or others) on Twitter to put in Elasticsearch and MongoDB
+> An application that get data tweets that contains the hashtag #RockinRio2022 (or others) on Twitter to put in Elasticsearch and MongoDB.
 > - **Stack**: Docker, Python, Elasticsearch, and MongoDB.
 ---
 
