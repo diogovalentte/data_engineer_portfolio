@@ -6,7 +6,7 @@
 
 ### Stream of 10 crypto coins data to Elasticsearch and AWS S3 (_crypto_coins_stream_AWS_):
 > An infrastructure created in the AWS Cloud using Terraform to stream data of 10 crypto coins to Opensearch (real time searching) and AWS S3 (archiving).
-> An AWS Lambda function extracts the crypto data from the [mercado-bitcoin API](https://www.mercadobitcoin.net/api/), send it to an AWS Kinesis Firehose Stream which deliveries the data to Opensearch (hosted in AWS) and an AWS S3 bucket.
+> An AWS Lambda function extracts the crypto data from the [mercado-bitcoin API](https://www.mercadobitcoin.net/api/), send it to an AWS Kinesis Firehose Stream which delivers the data to Opensearch (hosted in AWS) and an AWS S3 bucket.
 > - **Stack**: Docker, Terraform, Python, AWS Lambda, IAM, Kinesis Firehose, S3, and Opensearch.
 ---
 
