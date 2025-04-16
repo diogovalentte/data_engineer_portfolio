@@ -21,3 +21,6 @@
 [submodule "nyc_taxi_data_warehouse"]
 	path = nyc_taxi_data_warehouse
 	url = https://github.com/diogovalentte/nyc_taxi_data_warehouse
+[submodule "nyc_taxi_data_wh"]
+	path = nyc_taxi_data_warehouse
+	url = https://github.com/diogovalentte/nyc_taxi_data_warehouse
