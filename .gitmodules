@@ -24,3 +24,6 @@
 [submodule "nyc_taxi_data_wh"]
 	path = nyc_taxi_data_warehouse
 	url = https://github.com/diogovalentte/nyc_taxi_data_warehouse
+[submodule "iot_device_data"]
+	path = iot_device_data
+	url = https://github.com/diogovalentte/iot_device_data.git
