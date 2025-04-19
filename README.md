@@ -4,7 +4,7 @@ Personal projects that I created for learning purposes.
 
 # Projects:
 
-### Airflow pipeline to process data in an EMR cluster using PySpark and load it into a Redshift table
+### Airflow pipeline to process data in an EMR cluster using PySpark and load it into a Redshift table (_nyc_taxi_data_warehouse_):
 
 > An infrastructure create in AWS Cloud using Terraform to process data using an Airflow pipeline and load it into a Redshift table.
 >
@@ -12,7 +12,7 @@ Personal projects that I created for learning purposes.
 
 ---
 
-### Data lake IoT device data stream pipeline
+### Data lake IoT device data stream pipeline (_iot_device_data_):
 
 > An infrastructure created in the AWS Cloud using Terraform to stream IoT device data using an AWS Firehouse stream to a data lake in S3, then validate, transform, and catalog the data.
 >
