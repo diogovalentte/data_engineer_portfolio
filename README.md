@@ -12,6 +12,12 @@ Personal projects that I created for learning purposes.
 
 ---
 
+### Data lake IoT device data stream pipeline
+
+> An infrastructure created in the AWS Cloud using Terraform to stream IoT device data using an AWS Firehouse stream to a data lake in S3, then validate, transform, and catalog the data.
+>
+> - **Stack**: Terraform, Spark (PySpark), Delta Lake, Python, AWS S3, Lambda, Firehose, Lake Formation, Glue Catalog and ETL, VPC, IAM.
+
 ### Stream of 10 crypto coins data to Elasticsearch and AWS S3 (_crypto_coins_stream_AWS_):
 
 > An infrastructure created in the AWS Cloud using Terraform to stream data of 10 crypto coins to Opensearch (real time searching) and AWS S3 (archiving).
